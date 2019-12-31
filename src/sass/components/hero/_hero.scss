@@ -14,7 +14,7 @@
 
   &.with-picture {
     color: $white;
-    background-color: $black;
+    background-color: var(--background-color);
 
     @include respond-to('medium') {
       min-height: 450px;
